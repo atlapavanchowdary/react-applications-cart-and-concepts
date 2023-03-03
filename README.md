@@ -1,1 +1,1 @@
-# react-applications=cart-and-concepts
+# react-applications-cart-and-concepts
