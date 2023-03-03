@@ -1,0 +1,19 @@
+<script>
+    class BaseClass {
+        constructor(){
+            document.write("Base");
+        }
+        Print(){
+            document.write("Base Print <br>");
+        }
+    }
+
+    class DerivedClass extends BaseClass {
+        Print(){
+            document.write("Derived Print");
+        }
+    }
+
+    let obj = new DerivedClass();
+    obj.Print();
+</script>
